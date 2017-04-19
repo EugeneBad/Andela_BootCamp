@@ -1,0 +1,27 @@
+<<<<<<<<<<<<< Asymptotic Analysis Of the prime number generating function "prime_list" >>>>>>>>>>>>>
+
+On the first iteration of the outer for loop (digit = 3), the inner for loop will iterate 1 time.
+On the second iteration of the outer for loop (digit = 4), the inner for loop will iterate 2 times.
+On the third iteration of the outer for loop (digit = 5), the inner for loop will iterate 3 times.
+
+
+                       -----------------------------------------------------------------
+                                                            ITERATIONS
+----------------------------------------------------------------------------------------
+Outer Loop ------->     1st           2nd           3rd           4th          nth
+----------------------------------------------------------------------------------------
+Inner Loop ------->     1             2             3             4            n
+----------------------------------------------------------------------------------------
+
+Hence on the last iteration the outer for loop makes (digit = number), the inner for loop will iterate n times.
+The total number of times the statements in the inner for loop are executed will be:
+                1 + 2 + 3 + 4 + ---- + n
+                which is the sum of integers from 1 to n
+
+                => n(n+1)/2
+
+                =>(n*n/2) + n/2
+
+                =>(1/2)(n^2) times.
+
+           CONCLUSION: The time complexity of the prime_list function is O(n^2)
