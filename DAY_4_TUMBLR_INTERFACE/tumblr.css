@@ -1,0 +1,89 @@
+#mid_row{
+    height: 488px;
+    margin-top: 8px;
+    }
+
+#intro_column{
+    height: 486px;
+    }
+
+#Intro{
+    padding-top:182px;
+    }
+
+#heading{
+    text-align: center;
+    padding-bottom:0px;
+    font-size:12pt;
+    font-family:Arial;
+    color: white;
+    }
+
+#buttons {
+    margin-top:20px;
+    text-align: center;
+    }
+
+#buttons button{
+    width: 300px;
+    text-align: center;
+    height:45px;
+    margin-top:5px;
+    margin-bottom:7px;
+    border-radius:1px;
+    font-weight: bold;
+    font-size:12pt;
+    }
+
+#get_started_btn{
+    color: white;
+    background-image: url("blue.JPG");
+    border:none
+    }
+
+#log_in_btn{
+    background-color:#fff;
+    color:#444;
+    border:none;
+    }
+
+#trending{
+    margin-top:14px;
+    font-family:Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size:11pt;
+    color:white;
+    }
+
+#last_row{
+    height: 45px;
+    margin-top: 5px;
+    background-image: url("green.JPG")
+    }
+
+#Info{
+    height: 34px;
+    margin-top: 35px;
+    padding-top: 3px;
+    padding-left:20px; padding-right:0px
+    }
+
+#what_is{
+    text-align: center;
+    font-weight:bold;
+    font-size:12pt;
+    color:white;
+    margin-top:14px;
+    }
+
+#Info a{
+    margin-right:13px;
+    color:white;
+    }
+
+#Info span{
+    margin-left:932px;
+    margin-right:0px;
+    color: white;
+    }
