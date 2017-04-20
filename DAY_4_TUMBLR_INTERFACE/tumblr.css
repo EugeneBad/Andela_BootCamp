@@ -1,14 +1,29 @@
+body{
+    background-size: 100% 100%;
+    }
+
+#first_row{
+    margin-top: 2px;
+    padding-top:0px;
+    padding-left:5px
+    }
+
+#first_row input{
+    padding-left: 36px;
+    width:538px;
+    height:35px;
+    borer-radius: 1px;
+    background-color: rgba(0,0,0,0.2);
+    border:none
+    }
+
 #mid_row{
-    height: 488px;
+    height: 476px;
     margin-top: 8px;
     }
 
-#intro_column{
-    height: 486px;
-    }
-
 #Intro{
-    padding-top:182px;
+    padding-top:169px;
     }
 
 #heading{
@@ -83,7 +98,7 @@
     }
 
 #Info span{
-    margin-left:932px;
+    margin-left:928px;
     margin-right:0px;
     color: white;
     }
